@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "native-anticheat",
+  "version": "${version}",
+  "name": "Native Anticheat",
+  "description": "Server-side mod list verification anticheat.",
+  "authors": ["Sky_2013cc"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.nativeanticheat.NativeAnticheat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
